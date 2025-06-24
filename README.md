@@ -11,8 +11,8 @@ Browse available versions in the [branches](https://github.com/linescripts/timen
 ### Download
 
 ```bash
-# Download specific version (replace v1.0.28 with desired version)
-wget https://github.com/linescripts/timenzo/raw/v1.0.28/Timenzo-1.0.28-dde3119.sh
+# Download specific version (replace v1.0.29 with desired version)
+wget https://github.com/linescripts/timenzo/raw/v1.0.29/Timenzo-1.0.29-26c9b77.sh
 
 # Or browse branches to see available versions:
 # https://github.com/linescripts/timenzo/branches
