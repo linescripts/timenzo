@@ -2,31 +2,40 @@
 
 Official installer repository for Timenzo - AI-powered time tracking and productivity tool.
 
-## 📥 Download
+## 🚀 Quick Install (Latest Version)
 
-Browse available versions in the [branches](https://github.com/linescripts/timenzo/branches) and download the installer from the version you need.
+```bash
+# Download and install the latest version
+wget -qO- https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh | bash -s -- --install
+```
+
+Or download first and install:
+
+```bash
+# Download latest installer
+wget https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh
+
+# Make executable and run
+chmod +x timenzo-installer.sh
+./timenzo-installer.sh
+```
+
+## 📥 Download Specific Version
+
+```bash
+# Download specific version (replace HEAD with desired version)
+wget https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh
+
+# Make executable
+chmod +x timenzo-installer.sh
+
+# Run installer
+./timenzo-installer.sh
+```
+
+Browse available versions in the [branches](https://github.com/linescripts/timenzo/branches).
 
 ## 🐧 Linux Installation
-
-### Download
-
-```bash
-# Download specific version (replace v1.0.32 with desired version)
-wget https://github.com/linescripts/timenzo/raw/v1.0.32/Timenzo-1.0.32-f3dd992.sh
-
-# Or browse branches to see available versions:
-# https://github.com/linescripts/timenzo/branches
-```
-
-### Installation Steps
-
-```bash
-# Make the installer executable
-chmod +x Timenzo-1.0.32-f3dd992.sh
-
-# Run the installer
-./Timenzo-1.0.32-f3dd992.sh
-```
 
 The installer will:
 - Check system requirements
@@ -77,9 +86,10 @@ sudo gtk-update-icon-cache /usr/share/icons/hicolor 2>/dev/null || true
 - **Disk Space**: 200MB free space
 - **RAM**: 2GB minimum
 
-## 📝 Available Versions
+## 📝 Version History
 
-See all available versions in the [branches](https://github.com/linescripts/timenzo/branches) list. Each branch contains the installer for that specific version.
+- **Current Version**: 1.0.33 (latest)
+- See all versions: [branches](https://github.com/linescripts/timenzo/branches)
 
 ## 🏢 About Timenzo
 
