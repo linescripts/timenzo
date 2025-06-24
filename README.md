@@ -11,8 +11,8 @@ Browse available versions in the [branches](https://github.com/linescripts/timen
 ### Download
 
 ```bash
-# Download specific version (replace v1.0.30 with desired version)
-wget https://github.com/linescripts/timenzo/raw/v1.0.30/Timenzo-1.0.30-612b826.sh
+# Download specific version (replace v1.0.32 with desired version)
+wget https://github.com/linescripts/timenzo/raw/v1.0.32/Timenzo-1.0.32-f3dd992.sh
 
 # Or browse branches to see available versions:
 # https://github.com/linescripts/timenzo/branches
@@ -22,10 +22,10 @@ wget https://github.com/linescripts/timenzo/raw/v1.0.30/Timenzo-1.0.30-612b826.s
 
 ```bash
 # Make the installer executable
-chmod +x Timenzo-1.0.30-612b826.sh
+chmod +x Timenzo-1.0.32-f3dd992.sh
 
 # Run the installer
-./Timenzo-1.0.30-612b826.sh
+./Timenzo-1.0.32-f3dd992.sh
 ```
 
 The installer will:
