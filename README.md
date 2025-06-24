@@ -6,7 +6,7 @@ Official installer repository for Timenzo - AI-powered time tracking and product
 
 ```bash
 # Download and install the latest version
-wget -qO- https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh | bash -s -- --install
+wget https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh && chmod +x timenzo-installer.sh && ./timenzo-installer.sh
 ```
 
 Or download first and install:
@@ -88,7 +88,7 @@ sudo gtk-update-icon-cache /usr/share/icons/hicolor 2>/dev/null || true
 
 ## 📝 Version History
 
-- **Current Version**: 1.0.33 (latest)
+- **Current Version**: 1.0.34 (latest)
 - See all versions: [branches](https://github.com/linescripts/timenzo/branches)
 
 ## 🏢 About Timenzo
