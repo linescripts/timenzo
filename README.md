@@ -24,18 +24,18 @@ chmod +x timenzo-installer.sh
 
 ```bash
 # Download specific version (replace HEAD with desired version)
-wget https://github.com/linescripts/timenzo/raw/HEAD/Timenzo-1.0.51-50bc2cf.sh
+wget https://github.com/linescripts/timenzo/raw/HEAD/Timenzo-1.0.52-0a7118c.sh
 
 # Make executable
-chmod +x Timenzo-1.0.51-50bc2cf.sh
+chmod +x Timenzo-1.0.52-0a7118c.sh
 
 # Run installer
-./Timenzo-1.0.51-50bc2cf.sh
+./Timenzo-1.0.52-0a7118c.sh
 ```
 
 Available files in each version branch:
 - `timenzo-installer.sh` - Generic filename (same across all versions)
-- `Timenzo-1.0.51-50bc2cf.sh` - Version-specific filename
+- `Timenzo-1.0.52-0a7118c.sh` - Version-specific filename
 
 Browse available versions in the [branches](https://github.com/linescripts/timenzo/branches).
 
@@ -92,7 +92,7 @@ sudo gtk-update-icon-cache /usr/share/icons/hicolor 2>/dev/null || true
 
 ## 📝 Version History
 
-- **Current Version**: 1.0.51 (latest)
+- **Current Version**: 1.0.52 (latest)
 - See all versions: [branches](https://github.com/linescripts/timenzo/branches)
 
 ## 🏢 About Timenzo
