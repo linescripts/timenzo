@@ -5,15 +5,15 @@ Official installer repository for Timenzo - AI-powered time tracking and product
 ## 🚀 Quick Install (Latest Version)
 
 ```bash
-# Download and install the latest version
-wget https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh && chmod +x timenzo-installer.sh && ./timenzo-installer.sh
+# Download and install the latest version (bypasses GitHub cache)
+wget "https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh?$(date +%s)" -O timenzo-installer.sh && chmod +x timenzo-installer.sh && ./timenzo-installer.sh
 ```
 
 Or download first and install:
 
 ```bash
-# Download latest installer
-wget https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh
+# Download latest installer (bypasses GitHub cache)
+wget "https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh?$(date +%s)" -O timenzo-installer.sh
 
 # Make executable and run
 chmod +x timenzo-installer.sh
@@ -24,18 +24,18 @@ chmod +x timenzo-installer.sh
 
 ```bash
 # Download specific version (replace HEAD with desired version)
-wget https://github.com/linescripts/timenzo/raw/HEAD/Timenzo-1.0.61-e29cceb.sh
+wget https://github.com/linescripts/timenzo/raw/HEAD/Timenzo-1.0.62-377eaa6.sh
 
 # Make executable
-chmod +x Timenzo-1.0.61-e29cceb.sh
+chmod +x Timenzo-1.0.62-377eaa6.sh
 
 # Run installer
-./Timenzo-1.0.61-e29cceb.sh
+./Timenzo-1.0.62-377eaa6.sh
 ```
 
 Available files in each version branch:
 - `timenzo-installer.sh` - Generic filename (same across all versions)
-- `Timenzo-1.0.61-e29cceb.sh` - Version-specific filename
+- `Timenzo-1.0.62-377eaa6.sh` - Version-specific filename
 
 Browse available versions in the [branches](https://github.com/linescripts/timenzo/branches).
 
@@ -92,7 +92,7 @@ sudo gtk-update-icon-cache /usr/share/icons/hicolor 2>/dev/null || true
 
 ## 📝 Version History
 
-- **Current Version**: 1.0.61 (latest)
+- **Current Version**: 1.0.62 (latest)
 - See all versions: [branches](https://github.com/linescripts/timenzo/branches)
 
 ## 🏢 About Timenzo
