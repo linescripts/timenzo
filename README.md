@@ -1,121 +1,46 @@
 # Timenzo Installers
 
-Official installer repository for Timenzo - AI-powered time tracking and productivity tool.
+Official installer repository for Timenzo - AI-Powered Productivity Tool
 
-## 🚀 Quick Install (Latest Version)
+## Platform-Specific Branches
 
+This repository is organized by platform:
+
+- **[Linux Branch](../../tree/linux)** - Linux installers
+- **[macOS Branch](../../tree/macos)** - macOS installers  
+- **[Windows Branch](../../tree/windows)** - Windows installers
+
+## Quick Install
+
+### Linux
 ```bash
-# Download and install the latest version (bypasses GitHub cache)
-wget "https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh?$(date +%s)" -O timenzo-installer.sh && chmod +x timenzo-installer.sh && ./timenzo-installer.sh
+wget https://github.com/linescripts/timenzo-installers/raw/linux/latest-linux.sh
+chmod +x latest-linux.sh
+./latest-linux.sh
 ```
 
-Or download first and install:
-
+### macOS
 ```bash
-# Download latest installer (bypasses GitHub cache)
-wget "https://github.com/linescripts/timenzo/raw/HEAD/timenzo-installer.sh?$(date +%s)" -O timenzo-installer.sh
-
-# Make executable and run
-chmod +x timenzo-installer.sh
-./timenzo-installer.sh
+curl -L https://github.com/linescripts/timenzo-installers/raw/macos/latest-macos.sh -o latest-macos.sh
+chmod +x latest-macos.sh
+./latest-macos.sh
 ```
 
-## 📥 Download Specific Version
+### Windows
+*Coming soon*
 
-```bash
-# Download specific version (replace HEAD with desired version)
-wget https://github.com/linescripts/timenzo/raw/HEAD/Timenzo-1.0.73-8ac26d3.sh
+## Releases
 
-# Make executable
-chmod +x Timenzo-1.0.73-8ac26d3.sh
+Each platform has its own releases. Check the [Releases](../../releases) page for:
+- `v*.*.*-linux` - Linux releases
+- `v*.*.*-macos` - macOS releases
+- `v*.*.*-windows` - Windows releases
 
-# Run installer
-./Timenzo-1.0.73-8ac26d3.sh
-```
+## Build from Source
 
-Available files in each version branch:
-- `timenzo-installer.sh` - Generic filename (same across all versions)
-- `Timenzo-1.0.73-8ac26d3.sh` - Version-specific filename
+To build Timenzo from source, visit the main repository:
+https://github.com/linescripts/timenzo
 
-Browse available versions in the [branches](https://github.com/linescripts/timenzo/branches).
+## Support
 
-## 🐧 Linux Installation
-
-The installer will:
-- Check system requirements
-- Install Timenzo to `/opt/timenzo`
-- Create desktop shortcuts
-- Set up command line access
-- Ask if you want to launch Timenzo
-
-### Post-Installation
-
-After installation, you can launch Timenzo by:
-- Clicking the Timenzo icon in your applications menu
-- Running `timenzo` from the terminal
-- Searching for "Timenzo" in your application launcher
-
-**Note:** You may need to log out and back in for the menu entry to appear.
-
-## 🗑️ Uninstallation
-
-**Option 1: Using the uninstaller**
-```bash
-sudo /opt/timenzo/uninstall.sh
-```
-
-**Option 2: Manual removal**
-```bash
-# Remove installation directory
-sudo rm -rf /opt/timenzo
-
-# Remove desktop entry
-sudo rm -f /usr/share/applications/timenzo.desktop
-
-# Remove icon
-sudo rm -f /usr/share/icons/hicolor/scalable/apps/timenzo.svg
-
-# Remove command line launcher
-sudo rm -f /usr/local/bin/timenzo
-
-# Update system databases
-sudo update-desktop-database 2>/dev/null || true
-sudo gtk-update-icon-cache /usr/share/icons/hicolor 2>/dev/null || true
-```
-
-## 🔧 System Requirements
-
-- **OS**: Ubuntu 20.04+ or compatible Linux distribution
-- **Dependencies**: GTK 3.0, GLib 2.0
-- **Disk Space**: 200MB free space
-- **RAM**: 2GB minimum
-
-## 📝 Version History
-
-- **Current Version**: 1.0.73 (latest)
-- See all versions: [branches](https://github.com/linescripts/timenzo/branches)
-
-## 🏢 About Timenzo
-
-Timenzo is an AI-powered time tracking solution designed for teams using Odoo ERP. It provides:
-
-- Automatic time tracking
-- Smart activity monitoring
-- Screenshot capture (optional)
-- Seamless Odoo integration
-- Productivity analytics
-
-Visit [timenzo.com](https://timenzo.com) for more information.
-
-## 📄 License
-
-Proprietary software. See LICENSE for details.
-
-## 🐛 Support
-
-For issues and support:
-- Open an issue on [GitHub](https://github.com/linescripts/timenzo/issues)
-- Email: support@linescripts.com
-
----
-© 2024 Linescripts Softwares Pvt. Ltd.
+For issues and support, please open an issue in the main Timenzo repository.
