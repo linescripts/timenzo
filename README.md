@@ -13,7 +13,9 @@ chmod +x latest-linux.sh
 
 ## Available Versions
 
-No versions available yet. Run the installer script to create the first release.
+| Version | Release Date | Download |
+|---------|--------------|----------|
+| v1.0.50 | 2025-06-30 | [Download](v1.0.50/Timenzo-1.0.50-linux-0f7092b.sh) |
 
 ## Installation Instructions
 
