@@ -17,3 +17,6 @@ chmod +x timenzo-installer.sh
 echo "🚀 Running installer..."
 ./timenzo-installer.sh "$@"
 rm -f timenzo-installer.sh
+
+# Clean up the download script itself
+rm -f "$0"
