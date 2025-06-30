@@ -18,5 +18,6 @@ echo "🚀 Running installer..."
 ./timenzo-installer.sh "$@"
 rm -f timenzo-installer.sh
 
-# Clean up the download script itself
-rm -f "$0"
+# Clean up the download script itself after a small delay
+echo "🧹 Cleaning up..."
+(sleep 1 && rm -f "$0") &
