@@ -1,6 +1,6 @@
 # Timenzo Installers
 
-Official installer repository for Timenzo - AI-Powered Productivity Tool
+Platform-specific installer branches for Timenzo - AI-Powered Productivity Tool
 
 ## Platform-Specific Branches
 
@@ -14,16 +14,12 @@ This repository is organized by platform:
 
 ### Linux
 ```bash
-wget https://github.com/linescripts/timenzo-installers/raw/linux/latest-linux.sh
-chmod +x latest-linux.sh
-./latest-linux.sh
+curl -L https://raw.githubusercontent.com/linescripts/timenzo/linux/latest-linux.sh | bash
 ```
 
 ### macOS
 ```bash
-curl -L https://github.com/linescripts/timenzo-installers/raw/macos/latest-macos.sh -o latest-macos.sh
-chmod +x latest-macos.sh
-./latest-macos.sh
+curl -L https://raw.githubusercontent.com/linescripts/timenzo/macos/latest-macos.sh | bash
 ```
 
 ### Windows
