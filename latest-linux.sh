@@ -1,1 +1,0 @@
-v1.0.2/Timenzo-1.0.2-linux-703924a.sh
