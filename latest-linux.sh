@@ -1,1 +1,1 @@
-v1.0.50/Timenzo-1.0.50-linux-0f7092b.sh
+v1.0.2/Timenzo-1.0.2-linux-703924a.sh
