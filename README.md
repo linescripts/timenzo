@@ -3,14 +3,14 @@
 ## Quick Install (One Command)
 
 ```bash
-curl -L https://raw.githubusercontent.com/linescripts/timenzo-installers/linux/latest-linux.sh | bash
+curl -L https://raw.githubusercontent.com/linescripts/timenzo/linux/latest-linux.sh | bash
 ```
 
 ## Alternative Methods
 
 ### Download and Run
 ```bash
-wget https://raw.githubusercontent.com/linescripts/timenzo-installers/linux/latest-linux.sh
+wget https://raw.githubusercontent.com/linescripts/timenzo/linux/latest-linux.sh
 chmod +x latest-linux.sh
 ./latest-linux.sh
 ```
