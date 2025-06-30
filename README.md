@@ -18,4 +18,4 @@ chmod +x latest-linux.sh
 ### Specific Version
 Check [Releases](https://github.com/linescripts/timenzo/releases) for specific versions.
 
-## Current Version: v1.0.9
+## Current Version: v1.0.10
