@@ -16,8 +16,4 @@ wget https://raw.githubusercontent.com/linescripts/timenzo/linux/latest-linux.sh
 ### Specific Version
 Check [Releases](https://github.com/linescripts/timenzo/releases) for specific versions.
 
-## Requirements
-- Either `curl` or `wget` installed (most systems have at least one)
-- For Ubuntu minimal: `sudo apt-get install curl`
-
-## Current Version: v1.0.16
+## Current Version: v1.0.17
