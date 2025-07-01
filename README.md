@@ -16,4 +16,4 @@ wget https://raw.githubusercontent.com/linescripts/timenzo/linux/latest-linux.sh
 ### Specific Version
 Check [Releases](https://github.com/linescripts/timenzo/releases) for specific versions.
 
-## Current Version: v1.0.15
+## Current Version: v1.0.16
