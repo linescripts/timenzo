@@ -1,28 +1,18 @@
 # Timenzo Installers - Windows
 
-This branch contains Timenzo installers for Windows.
+## Quick Install
 
-## Latest Version
-
-Download the latest version:
-```bash
-wget https://github.com/linescripts/timenzo-installers/raw/windows/latest-windows.sh
-chmod +x latest-windows.sh
-./latest-windows.sh
+### Option 1: PowerShell (Recommended)
+```powershell
+irm https://raw.githubusercontent.com/linescripts/timenzo/windows/latest-windows.ps1 | iex
 ```
 
-## Available Versions
+### Option 2: Download and Run
+1. Download `latest-windows.bat`
+2. Double-click to run
+3. Follow the installer prompts
 
-No versions available yet. Run the installer script to create the first release.
+## Manual Download
+Visit [Releases](https://github.com/linescripts/timenzo/releases) for specific versions.
 
-## Installation Instructions
-
-1. Download the installer for your version
-2. Make it executable: `chmod +x Timenzo-*.sh`
-3. Run the installer: `./Timenzo-*.sh`
-
-## System Requirements
-
-- 64-bit Windows system
-- 2GB RAM minimum
-- 500MB free disk space
+## Current Version: v1.0.96
