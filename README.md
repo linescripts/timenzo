@@ -15,4 +15,4 @@ irm https://raw.githubusercontent.com/linescripts/timenzo/windows/latest-windows
 ## Manual Download
 Visit [Releases](https://github.com/linescripts/timenzo/releases) for specific versions.
 
-## Current Version: v2.0.0
+## Current Version: v2.0.1
